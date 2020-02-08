@@ -4,8 +4,8 @@ This application is a team manager where you can add multiple members to your te
 
 ### Example of Working Application
 
--[Animation]()
-![Gif of usage]()
+-[Animation](https://github.com/Modern-Viking/noIinTeam/blob/master/assets/gifs/useExample.gif?raw=true)
+![Gif of usage](https://github.com/Modern-Viking/noIinTeam/blob/master/assets/gifs/useExample.gif?raw=true)
 
 ## Instructions
 Install the necessary npm packages and then run the file.  Follow the command line prompts and the app will return an html file with the appropriate information entered.
