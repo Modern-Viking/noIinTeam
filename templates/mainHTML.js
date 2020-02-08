@@ -14,7 +14,9 @@ function makeCards(teamMember) {
         default:
             console.log("No Role Found, Try Again");
     }
-    return `   <div class="card">
+    return `
+    <div class="column">   
+    <div class="card">
     <div class="card-content">
         <p class="title">
             ${teamMember.getName()}
@@ -40,6 +42,7 @@ function makeCards(teamMember) {
             </span>
         </p>
     </footer>
+</div>
 </div>`
 }
 
@@ -57,7 +60,7 @@ return`<!doctype html>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
-  <section class="hero is-info text-is-centered">
+  <section class="hero is-info has-text-centered">
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
@@ -71,7 +74,7 @@ return`<!doctype html>
 </section> 
       <div class="container">
           
-      <div class="columns">
+      <div class="columns is-multiline is-centered">
       ${cards}
       </div>
   </body>

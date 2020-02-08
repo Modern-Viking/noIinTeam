@@ -47,7 +47,7 @@ async function init() {
     for (var i=0; i<teamArray.length; i++) {
       let card = makeHTML.makeCards(teamArray[i]);
       teamCardsHtml += card;
-      let HTML = makeHTML.makeHTML(card);
+      let HTML = makeHTML.makeHTML(teamCardsHtml);
 
       fs.writeFile('./output/index.html', HTML, function(err) {
         if (err) console.log('failed');
